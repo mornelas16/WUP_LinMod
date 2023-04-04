@@ -44,7 +44,11 @@ basicNN + geom_point() + ggtitle("SIMS vs ARM") + theme(plot.title = element_tex
 This data shows the simulation expectation of arm strength in the workers. This tells us that it is expected for most of the population to have a strength between 50 to 100 for arm strength. 
 
 ### Numerical results
+```{r}
+cor(SIMS~ARM,data=data)
+```
 
+The larger the number we get, the larger the correlation between the two is. From this data, we can see that there is a small correspondence between the two since the number is approaching 1. 
 
 ### Inferential  (Build model.1)
 
