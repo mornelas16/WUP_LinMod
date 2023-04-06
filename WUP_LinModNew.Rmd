@@ -118,8 +118,11 @@ The scatter plot above gives us the line of best fit for the data which allows f
 ## Model 3 SIM~ARM+GRIP
 
 ### Numerical results (cor)
+```{r}
+cor(SIMS~ARM+GRIP,data=data)
+```
 
-`
+The value above tells us that we have a 0.7326545 correlation between Sims vs Arm+Grip. This gives us a higher value from the Sims vs Arm and Sims vs Grip. It shows that the most accurate model would be when looking at both the Arm and Grip data togther rather than comparing them individually against Sims.
   
 ### Inferential  (Build 2-dimentional model.3)
 
