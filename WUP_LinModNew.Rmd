@@ -87,8 +87,11 @@ basicGRIP+ geom_point() + ggtitle("SIMS vs GRIP") + theme(plot.title = element_t
 
 
 ### Numerical results 
+```{r}
+cor(SIMS~GRIP,data=data)
+```
 
-
+For Sims vs Grip we have a value of 0.6398458 but for the Sims vs Arm we got 0.6860073. The value of Sims vs Arms is a higher value than that of Sims vs Grip making the correspondence slightly smaller in the correlation of data tables. This shows us that the Sims vs Arms model is more accurate than the Slims vs Grip model. 
 
 ### Inferential  (Build model.2)
   
