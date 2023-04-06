@@ -125,6 +125,12 @@ cor(SIMS~ARM+GRIP,data=data)
 The value above tells us that we have a 0.7326545 correlation between Sims vs Arm+Grip. This gives us a higher value from the Sims vs Arm and Sims vs Grip. It shows that the most accurate model would be when looking at both the Arm and Grip data togther rather than comparing them individually against Sims.
   
 ### Inferential  (Build 2-dimentional model.3)
+```{r}
+model.3 <- lm(SIMS~ARM+GRIP,data=data)
+summary.lm(model.3)
+``` 
+
+This data gives us an equation of SIMS= 0.037311xARM + 0.024470xGRIP -5.433871 for what would be the plane of best fit. 
 
 #### predict model.3 at target point
   
