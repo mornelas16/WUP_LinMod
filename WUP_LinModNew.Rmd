@@ -162,4 +162,5 @@ anova(model.1,model.2)
 
 From this data model.1 has a residual sum of squares of 217.88 and model.2 has 243.07. This gave us a difference of -25.189 which shows us that the model.1 is a more accurate model when comparing Sims to Arm and Grip individually. 
 
-
+## Conclusion
+Today we learned how to build models, how to edit plot titles, along with the sizing and spacing. We also created models to compare more than one subject at once and analyzed the probability and preciseness of the values that we gathered. These practice examples are going to benefit me by helping me understand how to use these tools and how they can be used in the future for projects to be completed in the future.  
